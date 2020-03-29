@@ -25,4 +25,4 @@ def cl(p0,p1,p2,t,t0,t1,t2):
     k1 = (1/(t2-t1))*(np.log((p0*(ps-p1)/(p1*(ps-p0)))))
     return ps/(1+c*np.exp(1)**(k1*(t-t0)))
 
-#%% Tempo de inflexão
+
