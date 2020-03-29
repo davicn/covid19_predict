@@ -4,7 +4,7 @@ import numpy as np
 #%% Projeção aritmética
 def pa(t,p0,p2,t0,t2):
     ka = (p2-p0)/(t2-t0)
-    return p0 + ka(p2,p0,t2,t0) * (t-t0)
+    return t#p0 + ka*(t-t0)
 
 
 #%% Projeção geométrica
